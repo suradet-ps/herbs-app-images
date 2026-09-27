@@ -1,13 +1,7 @@
 # Image Assets for the Herbs App
 
-```
-██╗███╗   ███╗ █████╗  ██████╗███████╗ ██████╗
-██║████╗ ████║██╔══██╗██╔════╝██╔════╝██╔════╝
-██║██╔████╔██║███████║██║  ███╗█████╗  ███████╗
-██║██║╚██╔╝██║██╔══██║██║   ██║██╔══╝  ╚════██║
-██║██║ ╚═╝ ██║██║  ██║╚██████╔╝███████╗██████╔╝
-╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝╚══════╝╚═════╝
-```
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/suradet-ps/herbs-app-images/issues)
 
 ---
 
@@ -15,7 +9,7 @@
 
 A formulary without pictures is a list of names; with them, it is a
 recognition. This repository is the version-controlled image shelf for
-the [herbs-app](https://github.com/pharmacist-sabot/herbs-app): every
+the [herbs-app](https://github.com/suradet-ps/herbs-app): every
 herb's photograph, publicly accessible, fetched by the app at runtime
 and keyed through the `ImageUrl` column of the Google Sheet. One repo
 per purpose, one image per herb, and a naming convention the app can
@@ -26,7 +20,7 @@ depend on.
 
 *The shelf - host, reference, serve - is sealed.*
 
-> Maintained by **pharmacist-sabot** - the images the formulary shows
+> Maintained by **suradet-ps** - the images the formulary shows
 > are the images this repository holds.
 >
 > **suradet-ps**, artifact keeper
@@ -38,14 +32,14 @@ depend on.
 No install, no build - a browser and a raw URL.
 
 ```
-⟫ git clone https://github.com/pharmacist-sabot/herbs-app-images.git
+⟫ git clone https://github.com/suradet-ps/herbs-app-images.git
 ```
 
 An image is referenced through the raw URL, not the GitHub preview
 page:
 
 ```
-https://raw.githubusercontent.com/pharmacist-sabot/<repo>/main/<image_name.png>
+https://raw.githubusercontent.com/suradet-ps/<repo>/main/<image_name.png>
 ```
 
 That URL is what lands in the `ImageUrl` column of the Google Sheet -
@@ -130,4 +124,4 @@ images in the root. Open an issue first to discuss a change.
   ─────────────────────────────────────────
 ```
 
-Open source.
+Open source under the [MIT License](LICENSE).
